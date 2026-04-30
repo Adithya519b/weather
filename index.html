@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather App</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="search">
+            <input type="text" id="city" placeholder="Enter city name">
+            <button><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-search" viewBox="0 0 16 16">
+  <path d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001q.044.06.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1 1 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0"/>
+</svg></button>
+        </div>
+        <div class="body">
+            <h1><span>28 °C</span></h1>
+            <h4 id="status">status</h4>
+        </div>
+        <div class="info1">
+            <div class="info1A d"><span>⏱️</span><p id="pressure">Pressure</p></div>
+            <div class="info1B d"><span>🍃</span><p id="wind">Wind speed</p></div>
+            <div class="info1C d"><span>🌄</span><p id="sunrise">Sunrise</p></div>
+        </div>
+        <div class="info2">
+            <div class="info2A d"><span>💧</span><p id="humidity">Humidity</p></div>
+            <div class="info2B d"><span>👁️</span><p id="visibility">Visibility</p></div>
+            <div class="info2C d"><span>🌄</span><p id="sunset">Sunset</p></div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

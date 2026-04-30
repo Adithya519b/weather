@@ -1,0 +1,84 @@
+*{
+    margin:0px;
+    padding: 0px;
+}
+body{
+    background-color: rgb(42, 42, 42);
+}
+.container{
+    border:1px solid black;
+    width: 70%;
+    margin: 5% auto;
+    background-image: url("assets/GettyImages-2166462891_WEB.webp");
+  background-size: cover;
+  background-position: center;
+ /*opacity:0.7 ;*/
+  background-blend-mode:darken;
+  border-radius: 7px;
+  color: white;
+  height: 90vh;
+
+}
+.search{
+    margin:5% auto;
+    width: 70%;
+    border: 1px solid white;
+    display: flex;
+    justify-content: space-around;
+    height: 40px;
+    background-color: white;
+    border-radius:10px;
+
+
+}
+.body{
+  /*  border:1px solid white;*/
+    height:30%;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+button{
+    width: 10%;
+    border:none;
+    border-radius: 7px;
+    background-color:white;
+    font-weight: bold;
+    font-size: larger;
+}
+input{
+    border:none;
+    background-color: white;
+    width: 80%;
+}
+.info1,.info2{
+  /*  border:1px solid white;*/
+    margin:3% auto;
+    width:95%;
+    display: flex;
+    height: 20%;
+    justify-content: space-around;
+
+}
+.d{
+    border:1px solid white;
+    width:30%;
+    margin: 1%;
+    background-color: rgb(221, 220, 220);
+    color:black;
+    border-radius: 10px;
+    
+}
+.d:hover{
+    scale: 1.04;
+    transition: ease;
+    transition-duration: 300ms;
+    box-shadow: 5px 5px 5px gray;
+}
+span{
+    font-size: 40px;
+}
+button:hover{
+    background-color: rgb(106, 106, 252);
+
+}
